@@ -1,0 +1,204 @@
+*{
+    background-color : #333333;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color : whitesmoke;
+}
+
+#netflix{
+    display : inline;
+    margin : 0px;
+    padding-top : 0px;
+    padding-right : 20px;
+    text-align: left;
+    color : rgb(210,9,20);
+    font-size: 100px;
+    font-weight: bolder;
+    width : 500px;
+}
+
+#login{
+    margin : 10px;
+    padding-top : 10px;
+    display : inline;
+    font-weight : bold;
+    font-size : 20px;
+    height : 100px;
+    width : 170px;
+    text-align : center;
+    color : whitesmoke;
+    background-color : rgb(190,9,20);
+    position: fixed;
+    right: 105px;
+    top : 250px;
+    border-radius : 15px;
+}
+
+#textbar{
+    margin : 10px;
+    padding-top : 10px;
+    display : inline;
+    font-weight : bold;
+    font-size : 20px;
+    height : 100px;
+    width : 870px;
+    text-align : center;
+    color : black;
+    background-color : whitesmoke;
+    position: fixed;
+    top : 250px;    
+    border-radius: 15px;
+    left : 150px;
+}
+
+ul {
+    list-style-type: none; /* Removes the default bullet style */
+}
+
+#search-results {
+    font-size: 4rem; /* set the font size to 2rem */
+    font-weight: bold; 
+    margin-left: 50px;
+}
+
+#nevbar{
+    margin-left: 50px;
+    margin-top : 10px;
+    position : fixed;
+    left : 900px;
+    display : inline-flex;
+}
+
+#nev{
+    padding-right: 50px;
+    font-size : 30px;
+}
+
+#tvshows{
+    margin : 100px;
+    display: flex;
+}
+
+#movie1{
+    padding-right : 50px;
+    background-color : inherit;
+}
+
+
+#documentlist{
+    top : 900px;
+    left : 100px;
+}
+
+#search{
+    top : 150px;
+    left : 100px;
+}
+
+
+
+/* Base styles */
+
+  h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0;
+    padding-right: 20px;
+    text-align: left;
+  }
+  
+  .header {
+    display: inline;
+    position: fixed;
+    right: 105px;
+    top: 250px;
+    margin: 10px;
+    padding-top: 10px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(190, 9, 20);
+    border-radius: 15px;
+  }
+  
+  .textbar {
+    display: inline;
+    position: fixed;
+    top: 250px;
+    left: 150px;
+    margin: 10px;
+    padding-top: 10px;
+    height: 100px;
+    width: 870px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 15px;
+  }
+  
+  .nevbar {
+    margin-top: 10px;
+    position: fixed;
+    left: 900px;
+    display: inline-flex;
+  }
+  
+  .nev {
+    padding-right: 50px;
+    font-size: 30px;
+  }
+  
+  .tvshows {
+    margin: 100px;
+    display: flex;
+  }
+  
+  .movie1 {
+    padding-right: 50px;
+    background-color: inherit;
+  }
+  
+  .documentlist {
+    top: 900px;
+    left: 100px;
+  }
+  
+  .search {
+    top: 150px;
+    left: 100px;
+  }
+  
+  /* About page styles */
+  #about-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #about-title {
+    font-size: 50px;
+    color: rgb(210, 9, 20);
+    margin-bottom: 50px;
+  }
+  
+  #about-text {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+  }
+  
+  #about-button {
+    display: inline-block;
+    background-color: rgb(210, 9, 20);
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  #about-button:hover {
+    background-color: #990000;
+  }
+

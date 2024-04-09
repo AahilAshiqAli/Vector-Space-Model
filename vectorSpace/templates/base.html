@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    {% block head %}{% endblock%}
+</head>
+<body> 
+    <h1 id = "netflix">RETRIEVAL GO</h1>
+    <div id = "nevbar" >
+        <a id = "nev" href = "/" ><h6>Home</h6></a>
+        <a id = "nev" href = "/about" ><h6>Search Results</h6></a>
+        <a id = "nev" href = "/services" ><h6>Page</h6></a>
+        <a id = "nev" href = "/question" ><h6>Assignment</h6></a>
+    </div>
+    {% block body %}{% endblock body%}
+</body>
+</html>
+

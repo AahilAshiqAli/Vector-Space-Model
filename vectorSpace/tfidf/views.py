@@ -91,7 +91,7 @@ def about(request):
       
     qw = []   
     for i in range(length):
-      q = {"res" : query_result[i][0], "score" : query_result[i][1] ,  "name" : docs_list[i], "doc_info" : read[i]}
+      q = {"res" : document_list_df.loc[query_result[i][0],'Filename'], "score" : round(query_result[i][1],3) ,  "name" : docs_list[i], "doc_info" : read[i]}
       qw.append(q)
    
             

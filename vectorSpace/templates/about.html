@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+
+{% endblock head %}
+
+
+
+{% block body %}
+<h2 id = "search-results">Search Results</h2>
+<ul>
+    {% for i in q %}
+      <li>
+        <div id="about-container">
+         <a href = "{% url 'services' %}?document_number={{i.name }}"><h1 id="about-title">Document {{ i.res }}     Ranking {{i.score}}</h1></a>
+          <p id="about-text">{{ i.doc_info }}</p>
+        </div>
+      </li>
+    {% empty %}
+      <li>No search results found.</li>
+    {% endfor %}
+  </ul>
+{% endblock body %}
+
+
+
+

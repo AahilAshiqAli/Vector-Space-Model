@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block head %}{% endblock head %}
+{% block body %}
+
+<form action="/about/" method="post">
+    {% csrf_token %}
+    <input id="textbar" type="text" name="search_text" placeholder="Search your text here">
+    <button type="submit" id="login">SEARCH</button>
+</form>
+
+{% endblock body %}
